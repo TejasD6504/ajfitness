@@ -642,7 +642,7 @@ box-shadow: inset -4px -4px 57px 4px rgba(255, 255, 255, 1); */
     transform:translate(-50%,-50%) rotate(45deg);
     height: 800px;
     width: 200px;
-    background-color: yellow;
+    background-color: gold;
     animation: move 1.5s infinite;
 }
 
@@ -680,7 +680,7 @@ box-shadow: inset -4px -4px 57px 4px rgba(255, 255, 255, 1); */
     overflow: hidden;
      min-height: 600px;
     width: 300px;
-    background-color: green;
+    background-color: #030303;
     position: relative;
     z-index: 8;
     padding: 8px;
