@@ -24,10 +24,10 @@ mapboxgl.accessToken = 'pk.eyJ1IjoicHByYXNhZCIsImEiOiJjbHZ0eHh0aDUwaHBqMmltam11a
 
       function initializeMaps(){
         var mapConfigs = [
-          { container: 'map1', center: [73.711827, 20.005474], zoom: 15 },
-          { container: 'map2', center: [73.711827, 20.005474], zoom: 15 },
-          { container: 'map3', center: [73.711827, 20.005474], zoom: 15 },
-          { container: 'map4', center: [73.711827, 20.005474], zoom: 15 }
+          { container: 'map1', center: [73.711827, 20.005474], zoom: 8 },
+          { container: 'map2', center: [73.711827, 20.005474], zoom: 8 },
+          { container: 'map3', center: [73.711827, 20.005474], zoom: 8 },
+          { container: 'map4', center: [73.711827, 20.005474], zoom: 8 }
         ];
 
         mapConfigs.forEach(config => {
