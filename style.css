@@ -134,19 +134,37 @@ html,body{
     position: relative;
     z-index: 20;
     padding-top: 10%;
+    line-height: clamp(3vw,9vw,11vw);
+}
+
+#coloursap{
+ color: white;
 }
 
 #page1 #heading h1{
-    font-size: 300px;
+    font-size: clamp(3vw,11vw,15vw);
     text-transform: uppercase;
     letter-spacing: 0px;
-    line-height: 270px;
     padding-left: 5%;
+}
+#page1 #heading #h1sfir{
+    font-size: clamp(1vw,5vw,15vw);
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    position: relative;
+    bottom: 10px;
+    /* padding-left: 5%; */
 }
 
 #h1fir{
+    position: relative;
     color: gold;
+    /* top: 30px; */
+}
 
+#h1sec{
+ position: relative;
+ color: gold;
 }
 
 #page1 img{
