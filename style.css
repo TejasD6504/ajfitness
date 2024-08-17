@@ -137,9 +137,7 @@ html,body{
     line-height: clamp(3vw,9vw,11vw);
 }
 
-#coloursap{
- color: white;
-}
+
 
 #page1 #heading h1{
     font-size: clamp(3vw,11vw,15vw);
@@ -500,7 +498,7 @@ box-shadow: inset -4px -4px 57px 4px rgba(255, 255, 255, 1); */
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 20px;
-  height: 100vh;
+  max-height: 500vh;
   width: 100%;
   /* padding: 80px; */
 }
@@ -568,7 +566,7 @@ box-shadow: inset -4px -4px 57px 4px rgba(255, 255, 255, 1); */
 }
 
 #head5{
-   margin-top: 20vh;
+   margin: 20vh 0;
     font-size: clamp(0.2vw,5vw,10vw);
    height: 10vh;
     width: 100%;
