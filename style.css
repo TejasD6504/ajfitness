@@ -633,9 +633,29 @@ box-shadow: inset -4px -4px 57px 4px rgba(255, 255, 255, 1); */
     gap: 20px;
 }
 
+#page6 #subpage6 #box::after{
+    
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) rotate(45deg);
+    height: 800px;
+    width: 200px;
+    background-color: yellow;
+    animation: move 1.5s infinite;
+}
+
+@keyframes move {
+    100%{
+        transform:translate(-50%,-50%)  rotate(225deg);
+    }
+    
+}
+
 #page6 .packcard{
-    min-height: 600px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     border: 3px solid black;
     background-color: gold;
    display: flex;
@@ -644,6 +664,8 @@ box-shadow: inset -4px -4px 57px 4px rgba(255, 255, 255, 1); */
    flex-direction: column;
    font-size: 20px;
    text-align: center;
+   position: relative;
+   z-index: 99;
    
     /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPxtH34RglkapDMz-GNnqVGGTY34_oodQJtNAoEDiSUGZWrUBc3oeEbNeEqsjBSpbf4u8&usqp=CAU);
     background-position: right;
@@ -652,6 +674,18 @@ box-shadow: inset -4px -4px 57px 4px rgba(255, 255, 255, 1); */
     display: flex;
     align-items: flex-end; */
 }
+
+
+#page6 #subpage6 #box{
+    overflow: hidden;
+     min-height: 600px;
+    width: 300px;
+    background-color: green;
+    position: relative;
+    z-index: 8;
+    padding: 8px;
+ }
+ 
 
 #page6 .packcard span{
     color: black;
