@@ -488,8 +488,8 @@ box-shadow: inset -4px -4px 57px 4px rgba(255, 255, 255, 1); */
 }
 
 .map {
-  height: 60%;
-  width: 20%;
+  height: 500px;
+  width: 350px;
   border: 1px solid #ddd;
 } 
 
@@ -550,8 +550,8 @@ box-shadow: inset -4px -4px 57px 4px rgba(255, 255, 255, 1); */
 }
 
 #head5{
-   margin: 20vh 0;
-    font-size: 70px;
+   margin-top: 20vh;
+    font-size: clamp(0.2vw,5vw,10vw);
    height: 10vh;
     width: 100%;
     text-transform: uppercase;
