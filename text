@@ -1,0 +1,54 @@
+#page1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('https://media.istockphoto.com/id/1150738353/photo/man-lifting-barbell.jpg?s=612x612&w=0&k=20&c=x2hI7k-1YHBJDzs1JkJmK2bdwJHCtJinF3xFQZgudNU=');
+    background-color: rgb(159 166 152);
+    background-blend-mode: darken;
+
+    background-position: center;
+    background-size: cover; */
+    position: relative;
+    z-index: 10;
+}
+
+
+#heading{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left: 20%;
+     z-index: 20;
+}
+
+ #heading h1{
+    font-size: 15rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+   
+} 
+#heading #h1sec{
+    line-height: 55px;
+    color: yellow;
+} 
+
+#page1 img{
+    position: relative;
+    /* top: -100px; */
+    right: 20%;
+    height: 100vh;
+    width: 70%;
+    z-index: 11;
+    background-color: rgb(159 166 152);
+    mix-blend-mode: darken;
+
+    background-position: center;
+    background-size: cover; 
+}   
+
