@@ -1,6 +1,9 @@
 let cur = document.querySelector("#cursor");
 let curin = document.querySelector("#cursor-out");
 let mainin = document.querySelector("#main")
+let tbtn = document.querySelector("#menuToggle")
+let option = document.querySelector("#opt")
+count =0;
 
 document.addEventListener('DOMContentLoaded', () => {
   const row = document.querySelector('#page7 .row');
@@ -18,6 +21,23 @@ mainin.addEventListener("mousemove",function(dets){
 
 })
 
+
+tbtn.addEventListener("click",function()
+{
+  if(count == 0)
+  {
+    option.style.display = 'flex';
+    tbtn.innerHTML = '&#10006';
+    tbtn.style.left = '250px';
+  count = 1;
+  }else{
+    option.style.display = 'none';
+    tbtn.innerHTML = '&#9776;';
+    tbtn.style.left = '0px';
+    count = 0;
+  }
+ 
+});
 
 //********************************maps***************** */
 mapboxgl.accessToken = 'pk.eyJ1IjoicHByYXNhZCIsImEiOiJjbHZ0eHh0aDUwaHBqMmltam11a2R0bnA2In0.VLGHXl9M36iKAZUNVx7AXg';
