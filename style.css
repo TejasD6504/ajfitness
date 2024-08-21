@@ -870,10 +870,11 @@ justify-content: center;
     margin-top: 10vh;
   }
   footer .container{
-    width: 1140px;
+    max-width: 500vh;
     margin: auto;
     display: flex;
     justify-content: center;
+    /* gap: 80px; */
   }
   footer .footer-content{
     width: 33.3%;
