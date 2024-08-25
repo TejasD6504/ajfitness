@@ -33,20 +33,20 @@ gsap.from("#nav img",{
     duration: 2
 })
 
-// gsap.to("#page1",{
-//     opacity: 0,
-//     duration: 1.2,
-//     backgroundColor: "gold",
-//     zindex: "99",
-//     scrollTrigger: {
-//         trigger: "#page1",
-//         scroller : "body",
+gsap.to("#page1",{
+    opacity: 0,
+    duration: 1,
+    backgroundColor: "#030303",
+    zindex: "99",
+    scrollTrigger: {
+        trigger: "#page1",
+        scroller : "body",
         markers: true,
-//         start: "top 60%",
-//         end: "top 40%",
-//         scrub: 2
-//     }
-// })
+        start: "top -10%",
+        end: "top -80%",
+        scrub: 1
+    }
+})
 
 gsap.from("#subpage2 .card",{
     opacity: 0,
