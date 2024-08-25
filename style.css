@@ -23,7 +23,7 @@
 
 ::-webkit-scrollbar-thumb{
     border-radius: 50px;
-    background-color: gold;
+    background-color: #FDF000;
 }
 
 html,body{
@@ -43,7 +43,7 @@ html,body{
     width: 10px;
     border-radius: 50%;
     /* cursor: none; */
-    background-color: gold;
+    background-color: #FDF000;
     position: fixed;
     z-index: 25;
     pointer-events: none;
@@ -79,9 +79,20 @@ html,body{
     width: 7vw;
     margin-left: 20px;
     border-radius: 50%;
+   
+}
+
+#opt{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #nav a{
+    display: flex;
+    height: 10px;
     cursor: none;
     color: white;
     /* border: solid 2px white; */
@@ -89,7 +100,6 @@ html,body{
     padding: 17px;
     font-size: 20px;
     text-decoration: none;
-
     text-transform: uppercase;
     transition: linear 0.5;
     position: relative;
@@ -101,9 +111,9 @@ html,body{
  }
 
 #nav a:hover{
-   color: gold;
-   text-decoration: underline 2px gold;
-    /* border: solid 2px gold; */
+   color: #FDF000;
+   text-decoration: underline 2px #FDF000;
+    /* border: solid 2px #FDF000; */
     text-decoration: none;
 }
 
@@ -129,7 +139,7 @@ html,body{
 }
 
 #page1 #heading{
-    opacity: 0;
+    /* opacity: 0; */
     height: 100%;
     width: 100%;
     display: flex;
@@ -161,13 +171,13 @@ html,body{
 
 #h1fir{
     position: relative;
-    color: gold;
+    color: #FDF000;
     /* top: 30px; */
 }
 
 #h1sec{
  position: relative;
- color: gold;
+ color: #FDF000;
 }
 
 #page1 img{
@@ -262,7 +272,7 @@ html,body{
     position: relative;
     flex-wrap: nowrap;
     z-index:77;
-    background-color: gold;
+    background-color: #FDF000;
     opacity: 0;
     position: relative;
     bottom: 100%;
@@ -289,14 +299,14 @@ html,body{
 #subpage2  #card1{
     height: 200px;
     width: 80%;
-    box-shadow: inset -4px -10px 89px -31px gold;
+    box-shadow: inset -4px -10px 89px -31px #FDF000;
     border-radius: 50px;
 }
 
 #subpage2  #card2{
     height: 200px;
     width: 80%;
-    box-shadow: inset -4px -10px 89px -31px gold;
+    box-shadow: inset -4px -10px 89px -31px #FDF000;
     border-radius: 50px;
 }
 
@@ -304,7 +314,7 @@ html,body{
     height: 200px;
     width: 80%;
     /* background-color: #fff; 
-    box-shadow: inset -4px -10px 89px -31px gold;
+    box-shadow: inset -4px -10px 89px -31px #FDF000;
     border-radius: 50px;
     color : #000;
 } */
@@ -346,6 +356,7 @@ html,body{
 #page3{
     min-height: 100vh;
     width: 100%;
+    overflow-y: hidden;
     /* background-color: red; */
 }
 
@@ -647,7 +658,7 @@ font-size: clamp(0.2vw,5vw,10vw);
     transform:translate(-50%,-50%) rotate(45deg);
     height: 800px;
     width: 200px;
-    background-color: gold;
+    background-color: #FDF000;
     animation: move 1.5s infinite;
 }
 
@@ -662,7 +673,7 @@ font-size: clamp(0.2vw,5vw,10vw);
     height: 100%;
     width: 100%;
     border: 3px solid black;
-    background-color: gold;
+    background-color: #FDF000;
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -819,7 +830,7 @@ justify-content: center;
 
 
 #page7 .reviews{
-    border: 3px solid gold;
+    border: 3px solid #FDF000;
     /* background-color: grey;
     opacity: 0.9; */
     padding: 30px;
@@ -988,7 +999,7 @@ justify-content: center;
      }
 
      #nav a:hover{
-        color: gold;
+        color: #FDF000;
       }
 
      #nav button{
