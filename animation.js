@@ -120,7 +120,6 @@ gsap.to("#page1",{
     scrollTrigger: {
         trigger: "#page1",
         scroller : "body",
-        markers: true,
         start: "top -10%",
         end: "top -80%",
         scrub: 1
