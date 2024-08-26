@@ -150,3 +150,29 @@ gsap.from("#subpage3 #describe6",{
         scrub: 2
     }
 })
+
+gsap.from("#page5 .map",{
+    opacity: 0,
+    y: 60,
+    duration: 1.2,
+    scrollTrigger: {
+        trigger: "#page5 .map",
+        scroller : "body",
+        start: "top 70%",
+        end: "top 50%",
+        scrub: 2
+    }
+})
+
+gsap.from("#subpage6 #box",{
+    opacity: 0,
+    y: 60,
+    duration: 1.2,
+    scrollTrigger: {
+        trigger: "#subpage6 #box",
+        scroller : "body",
+        start: "top 70%",
+        end: "top 50%",
+        scrub: 2
+    }
+})
