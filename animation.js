@@ -35,7 +35,7 @@ gsap.from("#nav img",{
 
 gsap.to("#page1",{
     opacity: 0,
-    duration: 1,
+    duration: 1.5,
     backgroundColor: "#030303",
     zindex: "99",
     scrollTrigger: {
@@ -52,12 +52,11 @@ gsap.from("#subpage2 .card",{
     opacity: 0,
     y: 60,
     duration: 1.2,
-
     scrollTrigger: {
         trigger: "#subpage2 .card",
         scroller : "body",
-        start: "top 75%",
-        end: "top 40%",
+        start: "top 70%",
+        end: "top 50%",
         scrub: 2
     }
 })
