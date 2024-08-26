@@ -10,13 +10,13 @@ tl.from("#opt a",{
     stagger: 0.2
 })
 
-tl.from("#heading h1",{
+gsap.from("#heading h1",{
     opacity : "0",
     // height:"100px",
-    duration: 1,
-    delay: 0,
-    y: 60,
-    stagger: 0.2
+    duration: 0.5,
+    delay: 0.3,
+    y: 100,
+    stagger: 0.6
     // scrollTrigger:{
     //     trigger:"#heading",
     //     scroller:"body",
@@ -26,6 +26,85 @@ tl.from("#heading h1",{
     //     scrub: 0.5
     // }
 })
+
+gsap.from("#head5",{
+    opacity : "0",
+    // height:"100px",
+    duration: 0.5,
+    delay: 0.3,
+    y: 100,
+    // stagger: 0.6
+    scrollTrigger:{
+        trigger:"#head5",
+        scroller:"body",
+        start: "top 60%",
+        end :"top 40%",
+    }
+})
+
+
+gsap.from("#head2",{
+    opacity : "0",
+    // height:"100px",
+    duration: 0.5,
+    delay: 0.3,
+    y: 100,
+    // stagger: 0.6
+    scrollTrigger:{
+        trigger:"#head2",
+        scroller:"body",
+        start: "top 60%",
+        end :"top 40%",
+    }
+})
+
+
+gsap.from("#head3",{
+    opacity : "0",
+    // height:"100px",
+    duration: 0.5,
+    delay: 0.3,
+    y: 100,
+    // stagger: 0.6
+    scrollTrigger:{
+        trigger:"#head3",
+        scroller:"body",
+        start: "top 80%",
+        end :"top 40%",
+    }
+})
+
+gsap.from("#head6",{
+    opacity : "0",
+    // height:"100px",
+    duration: 0.5,
+    delay: 0.3,
+    y: 100,
+    // stagger: 0.6
+    scrollTrigger:{
+        trigger:"#head6",
+        scroller:"body",
+        start: "top 70%",
+        end :"top 40%",
+    }
+})
+
+gsap.from("#head7",{
+    opacity : "0",
+    // height:"100px",
+    duration: 0.5,
+    delay: 0.3,
+    y: 100,
+    // stagger: 0.6
+    scrollTrigger:{
+        trigger:"#head7",
+        scroller:"body",
+
+        start: "top 90%",
+        end :"top 40%",
+    }
+})
+
 
 gsap.from("#nav img",{
     opacity: 0,
@@ -50,14 +129,14 @@ gsap.to("#page1",{
 
 gsap.from("#subpage2 .card",{
     opacity: 0,
-    y: 60,
+    y: 90,
     duration: 1.2,
     scrollTrigger: {
         trigger: "#subpage2 .card",
         scroller : "body",
-        start: "top 70%",
+        start: "top 60%",
         end: "top 50%",
-        scrub: 2
+        // scrub: 2
     }
 })
 
@@ -72,7 +151,6 @@ gsap.from("#subpage3 #describe1",{
         // markers: true,
         start: "top 75%",
         end: "top 40%",
-        scrub: 2
     }
 })
 
@@ -87,7 +165,6 @@ gsap.from("#subpage3 #describe2",{
         // markers: true,
         start: "top 75%",
         end: "top 40%",
-        scrub: 2
     }
 })
 
@@ -102,7 +179,6 @@ gsap.from("#subpage3 #describe3",{
         // markers: true,
         start: "top 75%",
         end: "top 40%",
-        scrub: 2
     }
 })
 
@@ -117,7 +193,6 @@ gsap.from("#subpage3 #describe4",{
         // markers: true,
         start: "top 75%",
         end: "top 40%",
-        scrub: 2
     }
 })
 
@@ -132,7 +207,7 @@ gsap.from("#subpage3 #describe5",{
         // markers: true,
         start: "top 75%",
         end: "top 40%",
-        scrub: 2
+
     }
 })
 
@@ -147,7 +222,7 @@ gsap.from("#subpage3 #describe6",{
         // markers: true,
         start: "top 75%",
         end: "top 40%",
-        scrub: 2
+
     }
 })
 
@@ -160,7 +235,6 @@ gsap.from("#page5 .map",{
         scroller : "body",
         start: "top 70%",
         end: "top 50%",
-        scrub: 2
     }
 })
 
@@ -173,6 +247,6 @@ gsap.from("#subpage6 #box",{
         scroller : "body",
         start: "top 70%",
         end: "top 50%",
-        scrub: 2
+        // scrub: 2
     }
 })
