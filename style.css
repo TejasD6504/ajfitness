@@ -972,9 +972,17 @@ justify-content: center;
   /***************************MEDIA QUERIES*******************************/
   @media (max-width : 600px)
   {
+    #cursor{
+        display: none;
+    }
+
+    #cursor-out{
+        display: none;
+    }
+
     #nav{
        /* display: none; */
-       height: 100px;
+       height: 70px;
     }
 
     #nav #logo{
