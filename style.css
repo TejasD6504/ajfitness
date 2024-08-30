@@ -1233,6 +1233,10 @@ justify-content: center;
         transform: translate(0px,-20px);
     }
 
+    #page6 .packcard .cont {
+        font-size: 3rem;
+    }
+
     /************************page7*************************************************/
     #head7{
         margin-top: 35%;
