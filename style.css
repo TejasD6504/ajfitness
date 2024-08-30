@@ -1037,7 +1037,9 @@ justify-content: center;
         line-height: 60px;
         padding-left: 2%;
     }
-    
+    #page1 #heading #h1sfir{
+        font-size: 1.7rem;
+    }
 
     /***************page2********************/
     #head2{
