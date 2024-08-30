@@ -1215,7 +1215,9 @@ justify-content: center;
         transform: translate(0px,-20px);
     }
     
-
+ #subpage5 .map-container{
+    gap : 50px;
+ }
     
     /************************page6*************************************************/
     #head6{
