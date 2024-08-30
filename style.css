@@ -1032,9 +1032,9 @@ justify-content: center;
     }
 
     #page1 #heading h1{
-        font-size: 3.3rem;
+        font-size: 4rem;
         text-transform: uppercase;
-        line-height: 50px;
+        line-height: 60px;
         padding-left: 2%;
     }
     
@@ -1062,13 +1062,15 @@ justify-content: center;
     }
 
     #subpage2 .card .cardh1{
-        top: 338px;
-        font-size: 37px;
+        /* top: 338px; */
+        font-size: 2.3rem; 
+        position: unset;
     }
     
     #subpage2 .card h4{
-        top: 345px;
+        /* top: 345px; */
         font-size: 25px;
+        position: unset;
     }
 
     .card .content{
@@ -1085,6 +1087,19 @@ justify-content: center;
     #subpage2 .card:hover .content{
         transform: scale(1);
         bottom: 100%;
+        line-clamp: 0.5rem;
+        font-size: 1.2rem;
+
+    }
+
+    #subpage2 #headcon{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 5%;
+        line-height: 50px;
     }
 
     /*****************page3****************/
