@@ -8,7 +8,7 @@
 
 *::selection{
     color: white;
-    background: #000;
+    background: hsl(0, 0%, 0%);
 }
 
 ::-webkit-scrollbar{
@@ -139,7 +139,6 @@ html,body{
 }
 
 #page1 #heading{
-    /* opacity: 0; */
     height: 100%;
     width: 100%;
     display: flex;
@@ -356,6 +355,7 @@ html,body{
     /* justify-content: flex-end; */
     padding: 5%;
     line-height: 50px;
+    gap: 0.9vh;
 }
 
 /**********************************page3******************************/
@@ -1120,7 +1120,8 @@ justify-content: center;
         flex-direction: column;
         justify-content: flex-end;
         padding: 5%;
-        line-height: 50px;
+        line-height: 50px; 
+         gap: 0vh;
     }
 
     /*****************page3****************/
