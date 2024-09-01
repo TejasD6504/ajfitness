@@ -126,6 +126,18 @@ gsap.to("#page1",{
     }
 })
 
+gsap.to("#nav",{
+    backgroundColor: "transparent",
+    zindex: "99",
+    scrollTrigger: {
+        trigger: "#nav",
+        scroller : "body",
+        start: "top -10%",
+        end: "top -80%",
+        scrub: 1
+    }
+})
+
 gsap.from("#subpage2 .card",{
     opacity: 0,
     y: 90,
@@ -133,7 +145,8 @@ gsap.from("#subpage2 .card",{
     scrollTrigger: {
         trigger: "#subpage2 .card",
         scroller : "body",
-        start: "top 60%",
+        // markers:true,
+        start: "top 70%",
         end: "top 50%",
         // scrub: 2
     }
