@@ -239,7 +239,7 @@ html,body{
 
 #subpage2 .card .cardh1{
     position: relative;
-    top: 420px;
+    /* top: 420px; */
     font-size: clamp(0px,3.3vw,10vw);
     color: black;
     left: 15px;
@@ -250,7 +250,7 @@ html,body{
 
 #subpage2 .card h4{
     position: relative;
-    top: 420px;
+    /* top: 420px; */
     font-size: clamp(0px,2.5vw,10vw);
     color: black;
     left: 15px;
@@ -351,7 +351,7 @@ html,body{
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-end; */
+    justify-constent: flex-end;
     padding: 5%;
     line-height: 50px;
     gap: 0.9vh;
