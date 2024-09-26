@@ -116,6 +116,53 @@ html,body{
     text-decoration: none;
 }
 
+#page2gp{
+    height: max-content;
+    width: 100%;
+}
+
+#gympic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Image container with position relative for overlay */
+.img-container {
+    position: relative;
+    width: 45%;  /* Set responsive width for images */
+    margin: 20px;
+}
+
+#gympic img {
+    width: 100%;  /* Image width is set to 100% of its container */
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Transparent white overlay */
+.img-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);  /* 50% transparent white */
+    pointer-events: none;  /* Allows interaction with the image underneath */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    color: #FDF000;
+    text-shadow: 0 0 30px #FDF000;
+
+}
+
+/* #gym1{
+    display: none;
+} */
+
 #page1 #photo{
     height: 100vh;
     width: 100%;
@@ -1290,3 +1337,13 @@ justify-content: center;
         display: none;
     }
 }
+
+
+
+
+
+
+
+
+/*====================First page addon===============================*/
+
