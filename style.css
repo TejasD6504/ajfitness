@@ -119,12 +119,14 @@ html,body{
 #page2gp{
     height: max-content;
     width: 100%;
+    padding-top: 30vh;
 }
 
 #gympic {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 /* Image container with position relative for overlay */
@@ -158,6 +160,35 @@ html,body{
     text-shadow: 0 0 30px #FDF000;
 
 }
+
+#headgympic{
+        /* margin-top: 30vh ; */
+        font-size:  clamp(0.2vw,5.5vw,10vw);
+       height: 10vh;
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;
+        z-index: 5;
+        letter-spacing: 1px;
+        padding-bottom: 30vh;
+    }
+    
+    #headgympic::before{
+        
+        content: "OUR GYMS";
+        position: absolute;
+        color: transparent;
+        scale: 2;
+        transform: translate(0px,-30px);
+       /*  top: -4px; */
+        /* left: -4px; */
+        /* font-size: 100px; */
+        color: rgba(69, 68, 68, 0.537);
+        /* -webkit-text-stroke: 2px grey; */
+        z-index: -2;
+    }
+
 
 /* #gym1{
     display: none;
@@ -1047,6 +1078,22 @@ justify-content: center;
 
   @media (max-width : 600px)
   {
+    
+    #page2gp{
+        padding-top: 10vh;
+    }
+    
+     
+    #headgympic{
+        margin-top: 5%;
+        font-size: 60px;
+    }
+    
+    #headgympic::before{
+        scale: 1.4;
+        transform: translate(0px,-25px);
+    }
+     
     #page1 #heading
     {
         padding-top: 30%;
@@ -1125,7 +1172,6 @@ justify-content: center;
     #head2{
         margin-top: 15%;
         font-size: 50px;
-    
     }
     
     #head2::before{
