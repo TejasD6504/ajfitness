@@ -1031,6 +1031,20 @@ justify-content: center;
 
 
   /***************************MEDIA QUERIES*******************************/
+  @media (max-width : 815px)
+  {
+    .img-container {
+        position: relative;
+        width: 90%;  /* Set responsive width for images */
+        margin: 20px;
+    }
+    
+    /* Transparent white overlay */
+    .img-container .overlay {
+        font-size: 3rem;
+    }
+  }
+
   @media (max-width : 600px)
   {
     #page1 #heading
@@ -1336,6 +1350,15 @@ justify-content: center;
     #disp{
         display: none;
     }
+
+
+    #page2gp{
+        height: max-content;
+        width: 100%;
+    }
+    
+    /* Image container with position relative for overlay */
+
 }
 
 
